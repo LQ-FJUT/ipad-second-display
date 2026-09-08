@@ -1,0 +1,117 @@
+鼠标互联 - Third-Party Notices
+====================================
+
+This distribution contains source code derived from or interoperating with
+the following projects. These notices do not change the license of the
+corresponding component.
+
+1. opendisplay-win
+------------------
+
+Project: https://github.com/martinhoess/opendisplay-win
+Pinned upstream revision: 06af3a9333f3acd0a79725adffb07b681abdcaf8
+License: GNU General Public License version 3 (GPL-3.0)
+
+The complete GPL-3.0 text is distributed in LICENSE / LICENSE.txt. Modified
+source and build scripts are supplied in the matching source archive.
+
+2. OpenDisplay
+--------------
+
+Project: https://github.com/peetzweg/opendisplay
+Pinned upstream revision: abb696ec296dd78bd8d69011da92b2c7c33f3853
+Copyright (c) 2026 Philip Poloczek
+License: GNU General Public License version 3 (GPL-3.0)
+
+OpenDisplay defines the receiver and wire protocol with which this Windows
+sender interoperates. The complete GPL-3.0 text is distributed in LICENSE /
+LICENSE.txt.
+
+3. parsec-vdd.h
+---------------
+
+File: third_party/parsec-vdd/parsec-vdd.h
+Upstream project identified by the file: https://github.com/nomi-san/parsec-vdd
+
+This copy is modified locally to match the current ParsecVDisplay v0.45
+controller's IOCTL output-buffer rules and overlapped-I/O cancellation. The
+surrounding Mouse Link integration also sends the controller's initial UPDATE
+cadence. The corresponding modified source is included in the source
+distribution. These changes remain under the terms reproduced below.
+
+The vendored header carries the following notice and license terms:
+
+Copyright (c) 2023, Nguyen Duy <wuuyi123@gmail.com> All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice,
+    this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+4. Parsec Virtual Display Driver binary
+---------------------------------------
+
+The Parsec Virtual Display Driver binary, installer, INF, CAT, DLL, helper
+programs, and installation scripts are NOT included in this distribution.
+The license above for parsec-vdd.h does not grant redistribution rights for
+the separate driver binary. A compatible signed driver, when required, must
+be obtained and installed separately by the user from an approved source.
+
+The Mouse Link installer neither installs nor uninstalls Parsec VDD,
+GameViewer Virtual Display Adapter, or any other display driver.
+
+5. Inno Setup
+-------------
+
+The Windows setup executable may be produced with Inno Setup 6:
+https://jrsoftware.org/isinfo.php
+
+Inno Setup is a build-time tool and is not installed as a separate component
+on the user's computer.
+
+6. Inno Setup Chinese Simplified Translation
+--------------------------------------------
+
+File: installer/ChineseSimplified.isl
+Project: https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation
+Pinned revision: 1ff90acc4ed4aee82b1cda43253243deee3daed4
+Source SHA-256: BF0751FA176569C6FAA2F6E17ED2734617BEF325D5CC06EAE030FDD0258EE778
+License: MIT
+
+MIT License
+
+Copyright (c) 2019 - 2020 kirakira
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

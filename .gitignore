@@ -1,0 +1,38 @@
+# Codex workspace metadata and locally downloaded build tools
+.codex/
+.tools/
+
+# CMake / Visual Studio outputs
+build/
+build-*/
+*-build/
+out/
+CMakeUserPresets.json
+.vs/
+*.obj
+*.pdb
+*.ilk
+*.exe
+
+# Release artifacts and machine-specific diagnostics
+dist/
+reports/
+
+# Local test output
+__pycache__/
+*.pyc
+*.h264
+
+# Editor and OS noise
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+Thumbs.db
+Desktop.ini
+
+# Machine-specific receiver configuration and credentials.
+config.json
+config.json.bak
+*.pem
+*.key
