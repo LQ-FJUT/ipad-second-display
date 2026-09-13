@@ -1,5 +1,7 @@
 # iPad互联
 
+简体中文 | [English](README.en.md)
+
 > 简明安装与使用说明见 [项目介绍与使用指南](项目介绍与使用指南.md)。
 
 本工程是在 `martinhoess/opendisplay-win` 提交 `06af3a9` 基础上进行的
